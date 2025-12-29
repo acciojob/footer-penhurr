@@ -1,1 +1,68 @@
 /* your code here */
+*{
+	margin:0;
+	
+}
+.logo-details{
+	font-size:2em;
+	padding:10px
+}
+
+.media-icons{
+	display:flex;
+	gap:15px;
+	
+}
+
+.media-icons i{
+	/* color:orange; */
+	width:30px;
+	height:30px;
+	border-radius:50%;
+	background-color:blue;
+	display:flex;
+	align-items:center;
+	justify-content:center;
+}
+
+
+.logo-name, .link-boxes, .media-icons, .logo-details{
+	padding:10px;
+	font-family:arial;
+	color:white;
+}
+
+.top{
+	display:flex;
+	justify-content:space-between;
+	/* border:1px solid black; */
+}
+
+.link-boxes{
+	display:flex;
+}
+ul{
+	list-style:none;
+}
+a{
+	text-decoration:none;
+	color:white;
+}
+ul li:first-child{
+	font-size:20px;
+	text-decoration:underline;
+	margin-bottom:5px;
+}
+
+.bottom-details{
+
+	background-color:grey;
+	display:flex;
+	justify-content:space-between;
+	padding:10px
+	
+}
+
+.content{
+	background-color:black
+}
